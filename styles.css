@@ -1,0 +1,158 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2;
+	font-family:verdana, arial, sans-serif;
+	font-family: 'Kalam', cursive;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+ol { 
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+ul {
+	padding-left: 1.4em;
+	list-style: square;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+*{
+	box-sizing:border-box;
+}
+
+
+
+.fixed{
+	position:fixed;
+}
+header{
+	width:100%;
+	height:32px;
+	background-color:rgb(60,73,85);
+	z-index:1000;
+}
+header .width{
+	position:relative;
+	padding:5px;
+	width:700px;
+	height:32px;
+	right:-400px;
+}
+nav{
+	position:fixed;
+	width:270px;
+	margin-left:110px;
+	margin-top:152px;
+	height:1000px;
+	background:url(repeat-y-green.png) repeat-y 59% center;
+	z-index:1001;
+}
+nav .navimg{
+	margin-top:-140px;
+}
+nav .navbutton{
+	display:block;
+	margin-left:55px;
+	width:180px;
+	height:40px;
+	margin-bottom:10px;
+	
+}
+nav .home{
+	background:url(navHOME.png) no-repeat;
+}
+nav .home:hover{
+	background:url(navHOMEhover.png) no-repeat;
+}
+nav .options{
+	background:url(navOPTIONS.png) no-repeat;
+}
+nav .options:hover{
+	background:url(navOptionshover.png) no-repeat;
+}
+nav .info{
+	background:url(navINFO.png) no-repeat;
+}
+nav .info:hover{
+	background:url(navINFOhover.png) no-repeat;
+}
+nav .sponsors{
+	margin-left:55px;
+	margin-top:10px;
+}
+nav .nav_blocks{
+	width:200px;
+	margin-left:55px;
+	margin-top:10px;
+}
+nav .green_quarter{
+	white-space:pre;
+	width:80px;
+	height:80px;
+	background-color:rgb(200,240,114);
+	display:inline-block;
+	margin-right:10px;
+	margin-bottom:10px;
+	padding:5px;
+}
+nav .green_quarter .spons_img{
+	display:block;
+	width:70px;
+	height:70px;
+}
+nav .green_quarter .piano{
+	background:url(navimg1.png) no-repeat 50% 50%;
+}
+nav .green_quarter .imagine{
+	background:url(navimg2.png) no-repeat 50% 50%
+}
+.second_header{
+	height:650px;
+	background-color:rgb(85,98,112);
+}
+.main_content{
+	position:relative;
+	width:700px;
+	height:100%;
+	margin-left:420px;
+}
+.second_header .main_content{
+	background:url(strelki.png) no-repeat 50% 35%;
+}
+.main_content .strelki{
+	display:block;
+	width:396px;
+	height:160px;
+	background:url(donate1.png) no-repeat 50% 35%;
+	position:relative;
+	left:145px;
+	top:250px;
+}
+.main_content .strelki:hover{
+	background:url(donate2.png) no-repeat 0% 100%
+}
+.main_1st{
+	width:100%;
+	height:800px;
+	background-color:rgb(183,234,231);
+}
